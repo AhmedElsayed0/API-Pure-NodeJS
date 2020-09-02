@@ -45,6 +45,7 @@ var server = http.createServer(function (req, res) {
     console.log("Request is received on this path: " + trimmedPath + " with method: " + method + " with this query string: ", queryStringObject);
     console.log("with the following headers: ", header);
     console.log("request received with this payloads: ", buffer);
+    console.log("this is a stage");
   });
 
 });
